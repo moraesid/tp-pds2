@@ -170,6 +170,6 @@ int main() {
         else refJogador = 1;
         lig4.imprimeTabuleiro();
     }
-
+    
     return 0;
 }
