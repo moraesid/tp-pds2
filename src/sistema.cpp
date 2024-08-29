@@ -278,21 +278,3 @@ std::pair<int,int> local::ligQuatro() {
         window.display();
     }
 }
-
-void local::menu() {
-    /* Define uma janela em SFML*/
-    sf::ContextSettings settings;
-    settings.depthBits = 24;
-    settings.antialiasingLevel = 8;
-    settings.stencilBits = 8;
-    sf::RenderWindow window(sf::VideoMode(VIEW_WIDHT, VIEW_HEIGHT),
-                            "Jogos - (beta01)", sf::Style::Default, settings);
-    window.setFramerateLimit(60);
-    //
-
-    sf::Font fonte;
-}
-
-void local::jogar() {
-    local::reversi();
-}

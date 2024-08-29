@@ -1,7 +1,9 @@
-#include "sistema.hpp"
+#include "menu.hpp"
 #include <cstdlib>
 
 int main() {
-    local::jogar();
+    local::MenuInicial *menuInicial = new local::MenuInicial();
+    menuInicial->executarMenu();
+    delete menuInicial;
     return EXIT_SUCCESS;
 }
